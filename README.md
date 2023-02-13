@@ -15,53 +15,37 @@
 
 1. Open your terminal and Clone this project to your local computer
 
-` ` `
 git clone https://github.com/pierceshih15/restaurantList.git
-` ` `
 
 2. Start the Terminal and access the folder where the project is stored
 
-` ` `
 cd restaurantList
-` ` `
 
 3. Install the npm suite
 
-` ` `
 Enter the npm install command in Terminal
-` ` `
 
 4. Install the nodemon suite
 
-` ` `
 Enter the nodemon app.js command in Terminal
-` ` `
 
 5. Import seed files
 
-` ` `
 Find the Seeder.js file in Terminal
 Execute node models/seeds/Seeder.js to import user and restaurant data
-` ` `
 
 When terminal displays the following words, it indicates that the seed data has been added to the database. Press ctrl + c to end the execution
 
-` ` `
 Mongodb is connected!
 User and Restaurant data get done!
-` ` `
 
 6. Start the server and execute the app.js file
 
-` ` `
 nodemon app.js
-` ` `
 
 7. If the following message is displayed in terminal, the server is successfully connected to the database
 
-` ` `
 The Express server is running on http://localhost:3000
 Mongodb is connected!
-` ` `
 
 Now, you can open any browser and enter [http://localhost:3000](http://localhost:3000)
